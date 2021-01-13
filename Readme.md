@@ -191,7 +191,7 @@ While value 11 to 99 is considered invalid. (Here, an error message is shown: â€
 
 Boundary Value Analysis- in Boundary Value Analysis, you test boundaries between equivalence partitions.
 
-![State transition technique](../Images/5a.png)
+![Boundary Value Analysis](../Images/5a.png)
 
 Here, we will check the values at the partitions like 0, 1, 10, 11 and so on. As you may observe, you test values at both valid and invalid boundaries. Boundary Value Analysis is also called range checking.
 
@@ -212,7 +212,7 @@ While value 11 to 99 is considered invalid. (Here, an error message is shown: â€
 We cannot test all the possible values because if done, will be time consuming.
 Using equivalence partitioning hypothesis where we divide the possible values of tickets into groups or sets as shown below.
 
-![State transition technique](../Images/5b.png)
+![Equivalence partitioning technique](../Images/5b.png)
 
 The divided sets are called Equivalence Partitions or Equivalence Classes. Then we pick only one value from each partition for testing. The hypothesis behind this technique is that if one condition/value in a partition passes all others will also pass. Likewise, if one condition in a partition fails, all other conditions in that partition will fail.
 
@@ -230,7 +230,7 @@ Image link - https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/v
 
 - Here, we use decision table technique where the different input combinations and their corresponding system behavior (Output) are captured in a tabular form.
 
-![State transition technique](../Images/6.png)
+![Decision table technique](../Images/6.png)
 
 #### The Login button should be enabled if the user has entered all the valid required fields (email & password).
 - Here, we use state transitioning technique where you get a different output for the same input, depending on what has happened before.
@@ -247,7 +247,7 @@ ii.	file size must be less than 32kb,
 - Resolution must be only 137*177
 - No. of Test Cases: 2**(No. of requirements = 3) = 8
 ### Solution: 
-![State transition technique](../Images/7.png)
+![Decision table technique](../Images/7.png)
 ### 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
 - what testing technique would you apply and give a detailed description of what you will do when applying this technique.
 
