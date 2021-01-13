@@ -191,7 +191,7 @@ While value 11 to 99 is considered invalid. (Here, an error message is shown: â€
 
 Boundary Value Analysis- in Boundary Value Analysis, you test boundaries between equivalence partitions.
 
-![Boundary Value Analysis](https://drive.google.com/file/d/1Jh_qSs0vtmbPN1Y2NOTzf4T4y3lsxDfp/view?usp=sharing)
+[Boundary Value Analysis](https://drive.google.com/drive/folders/1gO7Nbp48SEc4eMNuM_DvYB2oLOkAvJb_?usp=sharing)
 
 Here, we will check the values at the partitions like 0, 1, 10, 11 and so on. As you may observe, you test values at both valid and invalid boundaries. Boundary Value Analysis is also called range checking.
 
@@ -212,7 +212,7 @@ While value 11 to 99 is considered invalid. (Here, an error message is shown: â€
 We cannot test all the possible values because if done, will be time consuming.
 Using equivalence partitioning hypothesis where we divide the possible values of tickets into groups or sets as shown below.
 
-![Equivalence partitioning technique](https://drive.google.com/file/d/1KFGMW6VE2tQlnkPTKqQDCF5IQxC-rghV/view?usp=sharing)
+[Equivalence partitioning technique](https://drive.google.com/drive/folders/1PoRhwQLKBHbRUXEGQ1aOjH1PpAFr0m-H?usp=sharing)
 
 The divided sets are called Equivalence Partitions or Equivalence Classes. Then we pick only one value from each partition for testing. The hypothesis behind this technique is that if one condition/value in a partition passes all others will also pass. Likewise, if one condition in a partition fails, all other conditions in that partition will fail.
 
@@ -230,7 +230,7 @@ Image link - https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/v
 
 - Here, we use decision table technique where the different input combinations and their corresponding system behavior (Output) are captured in a tabular form.
 
-![Decision table technique](https://drive.google.com/file/d/1vfZ3fMgO0CF9CV2MS66DncJocdOxH-3E/view?usp=sharing)
+[Decision table technique](https://drive.google.com/drive/folders/1Pkap8INJPz7kxK3dD617pXY9srNiPYJA?usp=sharing)
 
 #### The Login button should be enabled if the user has entered all the valid required fields (email & password).
 - Here, we use state transitioning technique where you get a different output for the same input, depending on what has happened before.
@@ -247,10 +247,10 @@ ii.	file size must be less than 32kb,
 - Resolution must be only 137*177
 - No. of Test Cases: 2**(No. of requirements = 3) = 8
 ### Solution: 
-![Decision table technique](https://drive.google.com/file/d/1Nlu1Fl6CQxACVMP380g3Hqd3Va5cJuf8/view?usp=sharing)
+[Decision table technique](https://drive.google.com/drive/folders/1eymlmx99HND41jeNnPARJw14Z8eehx90?usp=sharing)
 ### 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
 - what testing technique would you apply and give a detailed description of what you will do when applying this technique.
 
 **Solution**: I will apply state transition technique.
 
-![State transition technique](https://drive.google.com/file/d/1dvR_hMA2DQDdFRJngieuR6smRSStIH7g/view?usp=sharing)
+[State transition technique](https://drive.google.com/drive/folders/106JPor4YUgNvMfN8tF_-mDUwqL3cWBg7?usp=sharing)
