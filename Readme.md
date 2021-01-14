@@ -248,6 +248,17 @@ ii.	file size must be less than 32kb,
 - No. of Test Cases: 2**(No. of requirements = 3) = 8
 ### Solution: 
 [Decision table technique](https://drive.google.com/drive/folders/1eymlmx99HND41jeNnPARJw14Z8eehx90?usp=sharing)
+
+### 8. Implement a Graph based testing technique for this scenario (State transition technique)
+1. An employee who decides to apply for leave, submits application form to HR, HR verifies eligibility, if not eligible application is rejected, if eligible, Manager ensures feasibility, if feasible, application is rejected else if feasible, application is approved
+
+[Solution link:](https://drive.google.com/drive/folders/1JDouqtICcpWHTiVts278KpF7Boq8qrFc?usp=sharing)
+
+### 9.	Sometimes a tester is not given all the details and has to come up with a solid logic with given requirements.
+1.	Implement a Graph based testing techniques for an atm machine that blocks the user from logging in after 3 wrong trials
+
+[Solution link:](https://drive.google.com/drive/folders/17PP14sbUwUKObj9iTI8JkZ_O9fsAIYw7?usp=sharing)
+
 ### 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
 - what testing technique would you apply and give a detailed description of what you will do when applying this technique.
 
