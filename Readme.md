@@ -1,8 +1,8 @@
 # QA SOLUTION TO WEEK TWO TASK
 1. ## What is test coverage and why is it very important in testing?
 ### Test Coverage?
-Test coverage is synonymous to exhaustive testing. It is a metric for how thorough testing is. 
-Example: If there are 10 requirements and 100 tests created and if 90 tests are executed then test coverage is 90%.
+Test coverage is synonymous to exhaustive testing (SL- Exhaustive testing is not synonymous to Test coverage. The better a test coverage(%), the closer the tester is to achieving the output of exhautive testing. 100% test coverage === Exhaustive testing ). It is a metric for how thorough testing is. 
+Example: If there are 10 requirements and 100 tests created and if 90 tests are executed then test coverage is 90%. (SL- What formular did you use?)- 4/5
 ### Importance of test coverage?
 - Defect prevention at early stages of project life cycle
 - It creates additional test cases to increase coverage
@@ -10,15 +10,15 @@ Example: If there are 10 requirements and 100 tests created and if 90 tests are 
 - It helps in finding areas of a program not exercised by a set of test cases
 - Time, Cost and Scope will be in control
 -  Testing life will become smooth by managing the Risk based testing approach
-- It helps in determining a quantitative measure of code coverage, which indirectly measures the quality of the application or product.
+- It helps in determining a quantitative measure of code coverage, which indirectly measures the quality of the application or product. (Sl - Should have discussed it a bit for me to know u didn't copy and paste this. WHat is ROI & UAT)- 2/5
 
 2. ## What is the difference between the testing technique and types of testing?
 ### Software testing?
-: Software Testing Type is a classification of different testing activities into categories, each having, a defined test objective, test strategy, and test deliverables. The goal of having a testing type is to validate the Application Under Test(AUT) for the defined Test Objective.
+: Software Testing Type is a classification of different testing activities into categories, each having, a defined test objective, test strategy, and test deliverables. The goal of having a testing type is to validate the Application Under Test(AUT) for the defined Test Objective. (Copied from google, does not show u understand it) 3/5
 ### b.	Software techniques?
-: Software Testing Techniques help you design better test cases. Since exhaustive testing is not possible; Manual Testing Techniques help reduce the number of test cases to be executed while increasing test coverage. They help identify test conditions that are otherwise difficult to recognize.
+: Software Testing Techniques help you design better test cases. Since exhaustive testing is not possible; Manual Testing Techniques help reduce the number of test cases to be executed while increasing test coverage. They help identify test conditions that are otherwise difficult to recognize. (copied) 3/5
 
-3. ## Discuss each type of testing and discuss the sub-testing types associated with each type of testing.
+3. ## Discuss each type of testing and discuss the sub-testing types associated with each type of testing. (Sl- When I say discuss, I mean explain it in your own words not give me back what the video said. I can't tell if u understand or not). 5/10
 : We have 2 main types of testing. Functional Testing & Non-functional testing.
 ###	FUNCTIONAL TESTING: (i.e.: Manual and Automation Testing)
 1.	Unit Testing
@@ -160,16 +160,16 @@ This involves:
 - This will teach you how to classify bugs under testing types and the kind of defects to look out for in an application
 
 Solution link: 
-[Solution to number 4](https://drive.google.com/drive/folders/1tk6Ki9IxgW-lep8c7rOmF7TpPz3fDrnW?usp=sharing)
+[Solution to number 4](https://drive.google.com/drive/folders/1tk6Ki9IxgW-lep8c7rOmF7TpPz3fDrnW?usp=sharing) 9/10
 
-### What is testing technique, discuss the type of testing techniques and give 2 examples of each.
+### What is testing technique, discuss the type of testing techniques and give 2 examples of each. 5/10 (Not enough examples)
 
 ### TEST CASE DESIGN TECHNIQUES IN SOFTWARE TESTING
 : Test case design technique is also called black box design technique.
 This is a technique used while writing test cases in other to have a better test case coverage.
-A test case with no substantial coverage is of no use.
+A test case with no substantial coverage is of no use. 3/3
 
-### TYPES OF TEST CASE DESIGN TECHNIQUES:
+### TYPES OF TEST CASE DESIGN TECHNIQUES: (Sl- Not enough examples)2/6
 1.	Error Guessing: Here, you try to guess the error by entering negative values. (There are no rules to go about it. Just be creative).
 
 **For example1**: suppose you had an input field which should receive a numeric value and not less than 10 numbers, you can approach the error guessing technique by saying, “what will be the result if”:
@@ -178,7 +178,7 @@ A test case with no substantial coverage is of no use.
 c.	Less than 10 numerical values are entered?
 For example2: 
 
-2.	Boundary Value Analysis: Boundary value analysis is a software testing technique in which tests are designed to include representatives of boundary values in a range. The idea comes from the boundary. (This is testing the boundaries between partition). 
+2.	Boundary Value Analysis: Boundary value analysis is a software testing technique in which tests are designed to include representatives of boundary values in a range. The idea comes from the boundary. (This is testing the boundaries between partition). (SL - This explains Equivalent testing more.)
 
 **For example1**: Say you have an online order pizza app that accepts numeric values:
 Pizza values 1 to 10 is considered valid. (Here, a success message is shown).
@@ -197,7 +197,7 @@ Here, we will check the values at the partitions like 0, 1, 10, 11 and so on. As
 
 3.	Decision Table Techniques: An approach where the different input combinations and their corresponding system behavior (Output) are captured in a tabular form (can we say using truth table).
 Here, we check for multiple conditions, combinations and rule criteria. Here we check for multiple inputs. Here, the conditions are taken as an input and actions are taken as an output
-4.	State Transition Techniques: Any system where you get a different output for the same input, depending on what has happened before, is a finite state system. 
+4.	State Transition Techniques: Any system where you get a different output for the same input, depending on what has happened before, is a finite state system. What is a finite state system?
 For example: if you request to withdraw $100 from a bank ATM, you may be given cash. Later when you make the same request you could be refused money (because your balance is insufficient). This later refusal is because the state of your bank account has changed from having sufficient funds to insufficient funds. And the transaction that caused your account to change its state was probably the earlier withdrawal.
 5.	Equivalence Partitioning: Equivalence partitioning or equivalence class partitioning (ECP) is a software testing technique that divides the input data of a software unit into partitions of equivalent data from which test cases can be derived.
 
@@ -216,7 +216,7 @@ Using equivalence partitioning hypothesis where we divide the possible values of
 
 The divided sets are called Equivalence Partitions or Equivalence Classes. Then we pick only one value from each partition for testing. The hypothesis behind this technique is that if one condition/value in a partition passes all others will also pass. Likewise, if one condition in a partition fails, all other conditions in that partition will fail.
 
-### 6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution. 
+### 6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution. 2/10 
 Image link - https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing
 
 ## Solution: 
@@ -232,10 +232,10 @@ Image link - https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/v
 
 [Decision table technique](https://drive.google.com/drive/folders/1Pkap8INJPz7kxK3dD617pXY9srNiPYJA?usp=sharing)
 
-#### The Login button should be enabled if the user has entered all the valid required fields (email & password).
+#### The Login button should be enabled if the user has entered all the valid required fields (email & password). (SL- Decision table should be rather used)
 - Here, we use state transitioning technique where you get a different output for the same input, depending on what has happened before.
 
-#### Only a registered user can login:
+#### Only a registered user can login:(SL- Equivalence class partitioning would be rather used. valid class - registered users, invalid class - unregistered users)
 - Here, we use error guessing. 
 #### All invalid inputs should throw the correct error, tester should suggest the type of error, while valid input should show the correct output.:
 - Here, the type of error would be type error.
@@ -247,21 +247,21 @@ ii.	file size must be less than 32kb,
 - Resolution must be only 137*177
 - No. of Test Cases: 2**(No. of requirements = 3) = 8
 ### Solution: 
-[Decision table technique](https://drive.google.com/drive/folders/1eymlmx99HND41jeNnPARJw14Z8eehx90?usp=sharing)
+[Decision table technique](https://drive.google.com/drive/folders/1eymlmx99HND41jeNnPARJw14Z8eehx90?usp=sharing). (Sl- Rule 5 is invalid)8/10
 
 ### 8. Implement a Graph based testing technique for this scenario (State transition technique)
 1. An employee who decides to apply for leave, submits application form to HR, HR verifies eligibility, if not eligible application is rejected, if eligible, Manager ensures feasibility, if feasible, application is rejected else if feasible, application is approved
 
-[Solution link:](https://drive.google.com/drive/folders/1JDouqtICcpWHTiVts278KpF7Boq8qrFc?usp=sharing)
+[Solution link:](https://drive.google.com/drive/folders/1JDouqtICcpWHTiVts278KpF7Boq8qrFc?usp=sharing). 10/10
 
 ### 9.	Sometimes a tester is not given all the details and has to come up with a solid logic with given requirements.
 1.	Implement a Graph based testing techniques for an atm machine that blocks the user from logging in after 3 wrong trials
 
-[Solution link:](https://drive.google.com/drive/folders/17PP14sbUwUKObj9iTI8JkZ_O9fsAIYw7?usp=sharing)
+[Solution link:](https://drive.google.com/drive/folders/17PP14sbUwUKObj9iTI8JkZ_O9fsAIYw7?usp=sharing) 8/10 (sl- It is suppose to block the user and not return the user card)
 
 ### 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
 - what testing technique would you apply and give a detailed description of what you will do when applying this technique.
 
-**Solution**: I will apply state transition technique.
+**Solution**: I will apply state transition technique(SL- explain). (Sl- comparative technique or error guessing technique. The tester has to compare the mailing application to an already existing mailing application like gmail inorder to understand what is expected of the new mailing system. This will allow the user to find defaults and missing features to report).
 
-[State transition technique](https://drive.google.com/drive/folders/106JPor4YUgNvMfN8tF_-mDUwqL3cWBg7?usp=sharing)
+[State transition technique](https://drive.google.com/drive/folders/106JPor4YUgNvMfN8tF_-mDUwqL3cWBg7?usp=sharing) ??????????
