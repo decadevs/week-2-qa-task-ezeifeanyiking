@@ -10,7 +10,7 @@ Example: If there are 10 requirements and 100 tests created and if 90 tests are 
 - It helps in finding areas of a program not exercised by a set of test cases
 - Time, Cost and Scope will be in control
 -  Testing life will become smooth by managing the Risk based testing approach
-- It helps in determining a quantitative measure of code coverage, which indirectly measures the quality of the application or product. (Sl - Should have discussed it a bit for me to know u didn't copy and paste this. WHat is ROI & UAT)- 2/5
+- It helps in determining a quantitative measure of code coverage, which indirectly measures the quality of the application or product. (Sl - Should have discussed it a bit for me to know u didn't copy and paste this. WHat is ROI & UAT)- 3/5
 
 2. ## What is the difference between the testing technique and types of testing?
 ### Software testing?
@@ -18,7 +18,7 @@ Example: If there are 10 requirements and 100 tests created and if 90 tests are 
 ### b.	Software techniques?
 : Software Testing Techniques help you design better test cases. Since exhaustive testing is not possible; Manual Testing Techniques help reduce the number of test cases to be executed while increasing test coverage. They help identify test conditions that are otherwise difficult to recognize. (copied) 3/5
 
-3. ## Discuss each type of testing and discuss the sub-testing types associated with each type of testing. (Sl- When I say discuss, I mean explain it in your own words not give me back what the video said. I can't tell if u understand or not). 5/10
+3. ## Discuss each type of testing and discuss the sub-testing types associated with each type of testing. (Sl- When I say discuss, I mean explain it in your own words not give me back what the video said. I can't tell if u understand or not). 6/10
 : We have 2 main types of testing. Functional Testing & Non-functional testing.
 ###	FUNCTIONAL TESTING: (i.e.: Manual and Automation Testing)
 1.	Unit Testing
