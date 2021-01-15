@@ -216,7 +216,7 @@ Using equivalence partitioning hypothesis where we divide the possible values of
 
 The divided sets are called Equivalence Partitions or Equivalence Classes. Then we pick only one value from each partition for testing. The hypothesis behind this technique is that if one condition/value in a partition passes all others will also pass. Likewise, if one condition in a partition fails, all other conditions in that partition will fail.
 
-### 6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution. 2/10 
+### 6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution. (SL - Incomplete answer) 5/10 
 Image link - https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing
 
 ## Solution: 
@@ -230,7 +230,7 @@ Image link - https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/v
 
 - Here, we use decision table technique where the different input combinations and their corresponding system behavior (Output) are captured in a tabular form.
 
-[Decision table technique](https://drive.google.com/drive/folders/1Pkap8INJPz7kxK3dD617pXY9srNiPYJA?usp=sharing)
+[Decision table technique](https://drive.google.com/drive/folders/1Pkap8INJPz7kxK3dD617pXY9srNiPYJA?usp=sharing) (SL -Awesome)
 
 #### The Login button should be enabled if the user has entered all the valid required fields (email & password). (SL- Decision table should be rather used)
 - Here, we use state transitioning technique where you get a different output for the same input, depending on what has happened before.
@@ -262,6 +262,6 @@ ii.	file size must be less than 32kb,
 ### 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
 - what testing technique would you apply and give a detailed description of what you will do when applying this technique.
 
-**Solution**: I will apply state transition technique(SL- explain). (Sl- comparative technique or error guessing technique. The tester has to compare the mailing application to an already existing mailing application like gmail inorder to understand what is expected of the new mailing system. This will allow the user to find defaults and missing features to report).
+**Solution**: I will apply state transition technique(SL- explain). (Sl- comparative technique or error guessing technique. The tester has to compare the mailing application to an already existing mailing application like gmail inorder to understand what is expected of the new mailing system. This will allow the user to find defaults and missing features to report. Score is just for attempting it). 3/10
 
 [State transition technique](https://drive.google.com/drive/folders/106JPor4YUgNvMfN8tF_-mDUwqL3cWBg7?usp=sharing) ??????????
